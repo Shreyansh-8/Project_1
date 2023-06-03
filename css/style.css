@@ -1,0 +1,87 @@
+body{
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    background: url(/1633729.jpg);
+    font-family: 'Sigmar One', cursive;
+}
+.left{
+    display: inline-block;
+    /* border: 3px solid red; */
+    position: absolute;
+    left: 30px;
+    top: 28px;
+    height: 110px;
+}
+.left img{
+    width: 180px;
+}
+.left div{
+    text-align: center;
+    line-height: 25px;
+    font-size: 21px;
+    
+}
+.mid{
+    display: block;
+    margin: 43px auto;
+    width: 40%;
+    /* border: 3px solid yellow; */
+}
+.right{
+    display: inline-block;
+    /* border: 3px solid palegreen; */
+    position: absolute;
+    right: 34px;
+    top: 43px;
+}
+.navbar li{
+    display: inline-block;
+    font-style: italic;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: lawngreen;
+}
+.btn{
+    margin: 0px 10px;
+    padding: 4px 14px;
+    border: 3px solid rgb(46, 58, 226);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Sigmar One', cursive;
+}
+.btn:hover{
+    background-color: rgb(172, 195, 238);
+}
+.container{
+    border: 3px solid white;
+    margin: 215px 86px;
+    padding: 75px 75px;
+    border-radius: 15px;
+    width:30%;
+}
+.fgroup input{
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+    width: 60%;
+    border: 3px solid black;
+    display: block;
+    margin: 8px auto;
+    padding: 4px 4px;
+}
+.container button{
+    display: block;
+    margin: auto;
+    width: 35%;
+}
+.container h3{
+    text-align: center;
+}
